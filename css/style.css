@@ -1,7 +1,22 @@
 /* font added here */
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
 /* common styles here */
+@media (min-width:200px) {
+    body{
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+    }
+}
+@media (max-width: 800px) {
+    boddy{
+        display: grid;
+        grid-template-columns: repeat(2,1fr);
+    }
+    
+}
+
 *{
     margin: 0px;
     padding: 0px;
