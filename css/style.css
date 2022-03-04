@@ -1,0 +1,171 @@
+/* font added here */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+/* common styles here */
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+p{
+   font-family: 'Poppins', sans-serif;
+   color: #6C6C6C;
+}
+h1{
+    font-size: 64px;
+}
+/* top banner part css here */
+header{
+    margin-bottom: 70px;
+    background-color: #2D25A0;
+}
+.top-title{
+    text-align: center;
+}
+button{
+    background-color: #E02C6D;
+    padding: 10px;
+    color: white;
+    border-radius: 10px;
+    font-size: 20px;
+    margin: 10px;
+}
+button:hover{
+    background-color: crimson;
+    cursor: pointer;
+}
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.top-title{
+    color: white;
+}
+.top-banner img{
+    width: 556px;
+    height: 438px;
+    margin-left: 250px;
+    transition: transform 3s ease-in-out ;
+}
+.top-banner img:hover{
+    transform: scale(1.5);   
+}
+/* player intro css start here */
+.player{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    justify-content: center;
+    align-items: center;
+    grid-row-gap: 27px;
+}
+.player-profile{
+    width: 300px;
+    height: 474px;
+    box-shadow: 10px 5px 5px rgba(0, 0, 0, 0.329);
+    margin: 0 auto;
+    border-radius: 15px;
+}
+ .player-image img{
+    width: 300px;
+    height: 256px;
+    border-radius: 15px;
+}
+
+/* sport highlight css part here */
+.sports{
+    margin: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.sports .sports-heading{
+    text-align: center;
+}
+.sports .sports-images img{
+    width: 567px;
+    height: 427px;
+    border-radius: 20px;
+}
+/* latest sports news/blogs css here */
+.section-title{
+    margin: 40px;
+}
+.blogs{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    grid-row-gap: 26px;
+    
+}
+.blogs{
+    justify-content: center;
+    align-items: center;
+}
+.blog {
+    display: flex;
+    flex-wrap: wrap;
+    
+    
+}
+
+.blog .thumbnail img{
+    width: 177px;
+    height: 117px;
+}
+.blog-details{
+    margin-left: 16px;
+}
+.blog-title{
+    font-size: 20px;
+}
+.blog-author{
+    color: #9F9F9F;
+    font-size: 16px;
+}
+.blog-author a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #542effc0;
+}
+
+/* ************************* */
+/* testimonial part css here */
+
+.testimonial{
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+    background-color: rgba(211, 211, 211, 0.281);
+}
+.about-section{
+    padding: 10px;
+}
+.testimonial a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+/* footer part css  */
+footer{
+    text-align: center;
+    margin-top: 50px;
+}
+.footer-logo img{
+    width: 483px;
+    height: 110px;
+}
+.footer-icon .fa-brands{
+    color: gray;
+    height: 32px;
+    width: 32px;
+    margin-right: 10px;
+    border: 50%;
+    transition: transform 1s ease;
+}
+.footer-icon .fa-brands:hover{
+    color: #E02C6D;
+    transform: scale(1.5);
+}
